@@ -1,0 +1,54 @@
+.modal {
+  padding: 0;
+  &-header {
+    background: #fff;
+    position: relative;
+    .btn-cancel-filter{
+      position: absolute;
+      font-size: 14px !important;
+      top: 13px !important;
+      left: 20px !important;
+      border: 1px solid $color_main;
+      padding: 2px 10px;
+    }
+    &__title{
+      color: $color-main;
+    }
+  }
+  .close-modal{
+    color: $color_main !important;
+  }
+}
+.modal-all-filter {
+  max-width: 600px;
+  .check-group {
+    display: flex;
+    flex-wrap: wrap;
+    .form-group {
+      flex: 0 0 30%;
+      label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        color: #666;
+        input {
+          width: 20px;
+          display: inline;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px){
+  .modal{
+    border-radius: 0;
+    width: 100% !important;
+    max-width: inherit;
+  }
+  .modal-form{
+    margin: 0;
+  }
+}

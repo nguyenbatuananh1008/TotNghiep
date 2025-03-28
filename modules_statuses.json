@@ -1,0 +1,7 @@
+{
+    "Admin": true,
+    "User": true,
+    "Blog": true,
+    "Product": true,
+    "Guest": true
+}

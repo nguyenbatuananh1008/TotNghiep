@@ -1,0 +1,104 @@
+.news {
+    background: #f6f6f6;
+    .news-content{
+        .list-news {
+            display: flex;
+            > div {
+                flex: 1;
+                margin-right: 30px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            .hot-news{
+                padding: 25px;
+                background: #fff;
+                >h4{
+                    font-size: 20px;
+                }
+                img{
+                    margin: 15px 0;
+                    width: 100%;
+                }
+                &__info{
+                    >h3{
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                    p{
+                        font-size: 16px;
+                        margin-bottom: 60px;
+                    }
+                }
+            }
+            .sub-news{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .item-sub{
+                    width: calc(50% - 15px);
+                    height: 50%;
+                    padding: 12px 0 0;
+                    color: #000;
+                    border-top: 1px solid #e4e7e9;
+                    >div{
+                        margin-bottom: 10px;
+                    }
+                    >a{
+                        img{
+                            height: 130px;
+                            width: 100%;
+                            margin-bottom: 8px;
+                        }
+                        h3{
+                            font-size: 18px;
+                            font-weight: 600;
+                            height: 80px;
+                        }
+                        div{
+                            font-size: 18px;
+                            color: $color_sky_blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .news {
+        .news-content{
+            .list-news{
+                flex-direction: column;
+                .hot-news{
+                    margin-right: 0;
+                }
+                .sub-news{
+                    .item-sub {
+                        width: calc(100% - 0px);
+                        padding-bottom: 20px;
+                        >a{
+                            h3{
+                                height: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .news {
+        .news-content{
+            .list-news{
+                .sub-news{
+                    .item-sub {
+                        width: calc(50% - 5px);
+                    }
+                }
+            }
+        }
+    }
+}

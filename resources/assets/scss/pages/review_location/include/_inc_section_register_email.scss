@@ -1,0 +1,73 @@
+.section-register-email {
+    background: url(/images/banner/rectangle-2.png) no-repeat center;
+    background-size: cover;
+    height: 120px;
+    margin-top: 40px;
+    .content {
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 20px;
+        h5 {
+            font-weight: 500;
+            color: white;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        .form {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            justify-content: space-around;
+            .form-group {
+                position: relative;
+                margin-right: 10px;
+                i {
+                    position: absolute;
+                    left: 11px;
+                    top: 11px;
+                    color: #666;
+                }
+                input {
+                    text-indent: 20px;
+                }
+                &:not(:last-child){
+                    width: 40%;
+                }
+                button {
+                    border: 0;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 500px){
+    .section-register-email{
+        height: auto;
+        .content{
+            padding-bottom: 20px;
+            .form{
+                flex-direction: column;
+                .form-group{
+                    margin-bottom: 5px;
+                    width: 100%;
+                    &:not(:last-child){
+                        width: 100%;
+                    }
+                    button{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .section-register-email{
+        .content{
+            max-width: fit-content;
+        }
+    }
+}

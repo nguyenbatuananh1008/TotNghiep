@@ -1,0 +1,19 @@
+// Base
+@import "../../base/common";
+
+// Plugin
+
+// Component global
+//@import "../../components/select2_custom";
+//@import "~select2";
+@import "~toastr";
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/footer/inc_footer_mb";
+
+
+// Component
+@import "../../components/breadcrumb";
+@import "include/inc_core_document";
+@import "include/inc_document_detail";
+

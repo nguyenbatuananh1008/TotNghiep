@@ -1,0 +1,454 @@
+{
+    "permission" : [
+        {
+            "id" : 1,
+            "name" : "full",
+            "description" : "Toàn quyền",
+            "group_permission" : 1
+        },
+        {
+            "id" : 2,
+            "name" : "group_article",
+            "description" : "Group tin tức",
+            "group_permission" : 2
+        },
+        {
+            "id" : 3,
+            "name" : "keyword_index",
+            "description" : "Danh sách keyword",
+            "group_permission" : 3
+        },
+        {
+            "id" : 4,
+            "name" : "keyword_create",
+            "description" : "Thêm mới keyword",
+            "group_permission" : 3
+        },
+        {
+            "id" : 5,
+            "name" : "keyword_edit",
+            "description" : "Cập nhật keyword",
+            "group_permission" : 3
+        },
+        {
+            "id" : 6,
+            "name" : "keyword_delete",
+            "description" : "Xoá keyword",
+            "group_permission" : 3
+        },
+        {
+            "id" : 7,
+            "name" : "menu_index",
+            "description" : "Danh sách Menu",
+            "group_permission" : 4
+        },
+        {
+            "id" : 8,
+            "name" : "menu_create",
+            "description" : "Thêm mới Menu",
+            "group_permission" : 4
+        },
+        {
+            "id" : 9,
+            "name" : "menu_edit",
+            "description" : "Cập nhật Menu",
+            "group_permission" : 4
+        },
+        {
+            "id" : 10,
+            "name" : "menu_delete",
+            "description" : "Xoá Menu",
+            "group_permission" : 4
+        },
+        {
+            "id" : 11,
+            "name" : "article_index",
+            "description" : "Danh sách article",
+            "group_permission" : 5
+        },
+        {
+            "id" : 12,
+            "name" : "article_create",
+            "description" : "Thêm mới article",
+            "group_permission" : 5
+        },
+        {
+            "id" : 13,
+            "name" : "article_edit",
+            "description" : "Cập nhật article",
+            "group_permission" : 5
+        },
+        {
+            "id" : 14,
+            "name" : "article_delete",
+            "description" : "Xoá article",
+            "group_permission" : 5
+        },
+        {
+            "id" : 15,
+            "name" : "group_car",
+            "description" : "Group car",
+            "group_permission" : 6
+        },
+        {
+            "id" : 16,
+            "name" : "location_index",
+            "description" : "Danh sách location",
+            "group_permission" : 7
+        },
+        {
+            "id" : 17,
+            "name" : "location_create",
+            "description" : "Thêm mới location",
+            "group_permission" : 7
+        },
+        {
+            "id" : 18,
+            "name" : "location_edit",
+            "description" : "Cập nhật location",
+            "group_permission" : 7
+        },
+        {
+            "id" : 19,
+            "name" : "location_delete",
+            "description" : "Xoá location",
+            "group_permission" : 7
+        },
+        {
+            "id" : 20,
+            "name" : "guest_index",
+            "description" : "Danh sách guest",
+            "group_permission" : 8
+        },
+        {
+            "id" : 21,
+            "name" : "guest_create",
+            "description" : "Thêm mới guest",
+            "group_permission" : 8
+        },
+        {
+            "id" : 22,
+            "name" : "guest_edit",
+            "description" : "Cập nhật guest",
+            "group_permission" : 8
+        },
+        {
+            "id" : 23,
+            "name" : "guest_delete",
+            "description" : "Xoá guest",
+            "group_permission" : 8
+        },
+        {
+            "id" : 24,
+            "name" : "guest_faking",
+            "description" : "Fake login guest",
+            "group_permission" : 8
+        },
+        {
+            "id" : 25,
+            "name" : "buses_edit",
+            "description" : "Cập nhật buses",
+            "group_permission" : 9
+        },
+        {
+            "id" : 26,
+            "name" : "buses_delete",
+            "description" : "Xoá buses",
+            "group_permission" : 9
+        },
+        {
+            "id" : 27,
+            "name" : "route_index",
+            "description" : "Danh sách route",
+            "group_permission" : 10
+        },
+        {
+            "id" : 28,
+            "name" : "route_create",
+            "description" : "Thêm mới route",
+            "group_permission" : 10
+        },
+        {
+            "id" : 29,
+            "name" : "route_edit",
+            "description" : "Cập nhật route",
+            "group_permission" : 10
+        },
+        {
+            "id" : 30,
+            "name" : "route_delete",
+            "description" : "Xoá route",
+            "group_permission" : 10
+        },
+        {
+            "id" : 31,
+            "name" : "ticket_index",
+            "description" : "Danh sách vé",
+            "group_permission" : 11
+        },
+        {
+            "id" : 32,
+            "name" : "group_user",
+            "description" : "Group người dùng",
+            "group_permission" : 12
+        },
+        {
+            "id" : 33,
+            "name" : "user_index",
+            "description" : "Danh sách user",
+            "group_permission" : 13
+        },
+        {
+            "id" : 34,
+            "name" : "user_create",
+            "description" : "Thêm mới user",
+            "group_permission" : 13
+        },
+        {
+            "id" : 35,
+            "name" : "user_edit",
+            "description" : "Cập nhật user",
+            "group_permission" : 13
+        },
+        {
+            "id" : 36,
+            "name" : "user_delete",
+            "description" : "Xoá user",
+            "group_permission" : 13
+        },
+        {
+            "id" : 37,
+            "name" : "promotion_code_index",
+            "description" : "Danh sách promotion_code",
+            "group_permission" : 14
+        },
+        {
+            "id" : 38,
+            "name" : "promotion_code_create",
+            "description" : "Thêm mới promotion_code",
+            "group_permission" : 14
+        },
+        {
+            "id" : 39,
+            "name" : "promotion_code_edit",
+            "description" : "Cập nhật promotion_code",
+            "group_permission" : 14
+        },
+        {
+            "id" : 40,
+            "name" : "promotion_code_delete",
+            "description" : "Xoá promotion_code",
+            "group_permission" : 14
+        },
+        {
+            "id" : 41,
+            "name" : "group_data",
+            "description" : "Nhóm dữ liệu",
+            "group_permission" : 15
+        },
+        {
+            "id" : 42,
+            "name" : "slide_index",
+            "description" : "Danh sách slide",
+            "group_permission" : 16
+        },
+        {
+            "id" : 43,
+            "name" : "slide_create",
+            "description" : "Thêm mới slide",
+            "group_permission" : 16
+        },
+        {
+            "id" : 44,
+            "name" : "slide_edit",
+            "description" : "Cập nhật slide",
+            "group_permission" : 16
+        },
+        {
+            "id" : 45,
+            "name" : "slide_delete",
+            "description" : "Xoá slide",
+            "group_permission" : 16
+        },
+        {
+            "id" : 46,
+            "name" : "configuration_index",
+            "description" : "thông tin configuration",
+            "group_permission" : 17
+        },
+        {
+            "id" : 47,
+            "name" : "configuration_edit",
+            "description" : "Cập nhật configuration",
+            "group_permission" : 17
+        },
+        {
+            "id" : 48,
+            "name" : "config_link_index",
+            "description" : "Danh sách config_link",
+            "group_permission" : 18
+        },
+        {
+            "id" : 49,
+            "name" : "config_link_create",
+            "description" : "Thêm mới config_link",
+            "group_permission" : 18
+        },
+        {
+            "id" : 50,
+            "name" : "config_link_edit",
+            "description" : "Cập nhật config_link",
+            "group_permission" : 18
+        },
+        {
+            "id" : 51,
+            "name" : "config_link_delete",
+            "description" : "Xoá config_link",
+            "group_permission" : 18
+        },
+        {
+            "id" : 52,
+            "name" : "page_index",
+            "description" : "Danh sách page",
+            "group_permission" : 19
+        },
+        {
+            "id" : 53,
+            "name" : "page_create",
+            "description" : "Thêm mới page",
+            "group_permission" : 19
+        },
+        {
+            "id" : 54,
+            "name" : "page_edit",
+            "description" : "Cập nhật page",
+            "group_permission" : 19
+        },
+        {
+            "id" : 55,
+            "name" : "page_delete",
+            "description" : "Xoá page",
+            "group_permission" : 19
+        },
+        {
+            "id" : 56,
+            "name" : "email_index",
+            "description" : "thông tin email",
+            "group_permission" : 20
+        },
+        {
+            "id" : 57,
+            "name" : "email_edit",
+            "description" : "Cập nhật email",
+            "group_permission" : 20
+        },
+        {
+            "id" : 58,
+            "name" : "navbar_index",
+            "description" : "Danh sách navbar",
+            "group_permission" : 21
+        },
+        {
+            "id" : 59,
+            "name" : "navbar_create",
+            "description" : "Thêm mới navbar",
+            "group_permission" : 21
+        },
+        {
+            "id" : 60,
+            "name" : "navbar_edit",
+            "description" : "Cập nhật navbar",
+            "group_permission" : 21
+        },
+        {
+            "id" : 61,
+            "name" : "navbar_delete",
+            "description" : "Xoá navbar",
+            "group_permission" : 21
+        },
+        {
+            "id" : 62,
+            "name" : "group_acl",
+            "description" : "Group Acl",
+            "group_permission" : 22
+        },
+        {
+            "id" : 63,
+            "name" : "permission_index",
+            "description" : "Danh sách permission",
+            "group_permission" : 23
+        },
+        {
+            "id" : 64,
+            "name" : "permission_create",
+            "description" : "Thêm mới permission",
+            "group_permission" : 23
+        },
+        {
+            "id" : 65,
+            "name" : "permission_edit",
+            "description" : "Cập nhật permission",
+            "group_permission" : 23
+        },
+        {
+            "id" : 66,
+            "name" : "permission_delete",
+            "description" : "Xoá permission",
+            "group_permission" : 23
+        },
+        {
+            "id" : 64,
+            "name" : "role_index",
+            "description" : "Danh sách role",
+            "group_permission" : 24
+        },
+        {
+            "id" : 65,
+            "name" : "role_create",
+            "description" : "Thêm mới role",
+            "group_permission" : 24
+        },
+        {
+            "id" : 66,
+            "name" : "role_edit",
+            "description" : "Cập nhật role",
+            "group_permission" : 24
+        },
+        {
+            "id" : 67,
+            "name" : "role_delete",
+            "description" : "Xoá role",
+            "group_permission" : 24
+        },
+        {
+            "id" : 68,
+            "name" : "admin_index",
+            "description" : "Danh sách admin",
+            "group_permission" : 25
+        },
+        {
+            "id" : 69,
+            "name" : "admin_create",
+            "description" : "Thêm mới admin",
+            "group_permission" : 25
+        },
+        {
+            "id" : 70,
+            "name" : "admin_edit",
+            "description" : "Cập nhật admin",
+            "group_permission" : 25
+        },
+        {
+            "id" : 71,
+            "name" : "admin_delete",
+            "description" : "Xoá admin",
+            "group_permission" : 25
+        },
+        {
+            "id" : 72,
+            "name" : "ticket_delete",
+            "description" : "Danh sách xoá vé",
+            "group_permission" : 11
+        }
+    ]
+}

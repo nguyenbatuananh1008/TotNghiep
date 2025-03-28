@@ -1,0 +1,74 @@
+.project-relative {
+    margin-bottom: 50px;
+
+    > h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .list-relative {
+        position: relative;
+        width: auto;
+        overflow-x: scroll;
+        white-space: nowrap;
+
+        .col-item {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+            margin-bottom: 10px;
+            //width: 25%;
+            width: 280px;
+            display: inline-block;
+            margin-right: 15px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &__image {
+                height: 180px;
+
+                > a {
+                    > img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            &__info {
+                padding: 10px;
+
+                > h3 {
+                    margin: 7px 0;
+                    line-height: 1.3;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+
+                    > a {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+
+                .main-info {
+                    line-height: 1.3;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+
+                }
+            }
+        }
+    }
+
+    .list-relative::-webkit-scrollbar {
+        height: 4px; /* height of horizontal scrollbar ← You're missing this */
+        width: 4px; /* width of vertical scrollbar */
+        border: 2px solid #dedede;
+    }
+
+    .list-relative::-webkit-scrollbar-thumb:horizontal {
+        background: #999;
+        border-radius: 10px;
+    }
+}

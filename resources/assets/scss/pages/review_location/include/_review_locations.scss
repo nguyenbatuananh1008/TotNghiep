@@ -1,0 +1,49 @@
+.review-locations {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-title {
+            font-size: 16px;
+            color: #333;
+            font-weight: 500;
+        }
+    }
+    &-list {
+        margin: 10px 0;
+        .item-review {
+            position: relative;
+            margin-right: 10px;
+            border-radius: 5px;
+            a {
+                border-radius: 5px;
+                display: block;
+                &:before {
+                    border-radius: 5px;
+                    position: absolute;
+                    content: "";
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(0,0,0,.3);
+                    z-index: 0;
+                }
+            }
+            img {
+                max-width: 100%;
+                width: 100%;
+                border-radius: 5px;
+            }
+            h4 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}

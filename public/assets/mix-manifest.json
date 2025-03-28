@@ -1,0 +1,23 @@
+{
+    "/js/app_user.js": "/js/app_user.js?id=02cef388829f36cc950e",
+    "/js/detail.js": "/js/detail.js?id=85eca68a4641ed0376d1",
+    "/js/home.js": "/js/home.js?id=5a733ad430697f3f0bf0",
+    "/css/review_location.css": "/css/review_location.css?id=10ba9bf074294585032d",
+    "/css/home.css": "/css/home.css?id=95b780ad0a22410f73f2",
+    "/css/search.css": "/css/search.css?id=63f287617e09de09b662",
+    "/css/detail.css": "/css/detail.css?id=9f9c2b97d169e8517efa",
+    "/css/user.css": "/css/user.css?id=09c145e169f93632a3b5",
+    "/css/ticket.css": "/css/ticket.css?id=31b097fea007185101e8",
+    "/css/article.css": "/css/article.css?id=3696ab4c0e49bdbe9bec",
+    "/test/app_test.css": "/test/app_test.css?id=eafec1ace28369f7a3a2",
+    "/js/search.js": "/js/search.js?id=1b54b0fe0377839f11bc",
+    "/test/app_test.js": "/test/app_test.js?id=243fcae4f5d257162031",
+    "/css/review_location.min.css": "/css/review_location.min.css?id=10ba9bf074294585032d",
+    "/css/home.min.css": "/css/home.min.css?id=95b780ad0a22410f73f2",
+    "/css/search.min.css": "/css/search.min.css?id=63f287617e09de09b662",
+    "/css/detail.min.css": "/css/detail.min.css?id=9f9c2b97d169e8517efa",
+    "/css/user.min.css": "/css/user.min.css?id=09c145e169f93632a3b5",
+    "/css/ticket.min.css": "/css/ticket.min.css?id=31b097fea007185101e8",
+    "/css/article.min.css": "/css/article.min.css?id=3696ab4c0e49bdbe9bec",
+    "/test/app_test.min.css": "/test/app_test.min.css?id=eafec1ace28369f7a3a2"
+}

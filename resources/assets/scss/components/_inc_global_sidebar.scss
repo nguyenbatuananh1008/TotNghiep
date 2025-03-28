@@ -1,0 +1,19 @@
+.global-sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: -100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border: 1px solid silver;
+    background-color: white;
+    padding: 10px;
+    &.active {
+        left: 0;
+    }
+    .li-user-login {
+        display: none !important;
+    }
+}

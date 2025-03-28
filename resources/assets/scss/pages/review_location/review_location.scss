@@ -1,0 +1,19 @@
+// Base
+@import "../../base/common";
+
+// Plugin
+@import "~owl.carousel/dist/assets/owl.carousel.min.css";
+@import "~owl.carousel/dist/assets/owl.theme.default.min.css";
+@import "~select2";
+
+// Component global
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/select2_custom";
+@import "../../components/breadcrumb";
+
+// Component
+@import "./../../components/section_title";
+@import "include/review_locations";
+@import "include/review_dashboard";
+@import "include/inc_section_register_email";

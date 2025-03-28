@@ -1,0 +1,26 @@
+// Base
+@import "../../base/common";
+
+// Plugin
+
+// Component global
+@import "../../components/select2_custom";
+@import "~select2";
+@import "~toastr";
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/footer/inc_footer_mb";
+@import "~@chenfengyuan/datepicker";
+
+// Component
+@import "../../components/breadcrumb";
+@import "include/inc_common";
+@import "include/inc_banner";
+@import "include/inc_explore_area";
+@import "include/inc_statistics";
+@import "include/inc_intro";
+@import "include/inc_project";
+//@import "include/inc_news";
+@import "include/inc_section_link";
+@import "include/inc_help";
+

@@ -1,0 +1,57 @@
+.box-link {
+    .box-link-content {
+        .item-link {
+            > h5 {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .tab-content {
+                display: flex;
+                margin-top: 10px;
+
+                .col-3 {
+                    flex: 0 0 25%;
+                    max-width: 25%;
+
+                    ul {
+                        list-style-type: none;
+
+                        a {
+                            color: $color_sky_blue;
+                            font-size: 14px;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            max-width: 250px;
+                            display: inline-block;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 991px) {
+    .box-link {
+        .box-link-content {
+            .item-link {
+                .tab-content {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}

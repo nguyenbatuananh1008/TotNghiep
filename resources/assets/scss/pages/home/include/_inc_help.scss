@@ -1,0 +1,80 @@
+.box-help {
+    background: #0d8aee;
+    h2 {
+        color: white;
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+    p {
+        max-width: 600px;
+        color: white;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    form {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+        margin: 0 auto;
+        .form-group{
+            margin-bottom: 0;
+        }
+        select[name='type'],.select2 {
+            width: 138px !important;
+            border-radius: 5px;
+            height: 38px;
+        }
+        input[name='name'] {
+            flex: 0 0 30%;
+            height: 38px;
+            border-radius: 5px;
+        }
+        input[name='phone'] {
+            flex: 0 0 30%;
+            height: 38px;
+            border-radius: 5px;
+        }
+
+        select {
+            height: auto;
+        }
+        button {
+            border-radius: 20px;
+            height: 38px;
+            line-height: 16px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .box-help {
+        form {
+            width: 100%;
+            flex-direction: column;
+            .form-control {
+                margin: 5px 0;
+            }
+
+            select[name='type'],.select2 {
+                width: 100% !important;
+                margin-bottom: 5px;
+            }
+            select {
+                width: 100% !important;
+            }
+            button{
+                margin: 5px 0;
+            }
+        }
+    }
+    .conha-select2-container {
+        width: 100% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .box-help {
+        form {
+            width: 100%;
+        }
+    }
+}
